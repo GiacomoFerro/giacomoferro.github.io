@@ -130,9 +130,12 @@ h2 {
   padding: 5% 15% 10%;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .contact-item img {
     display: none;
+  }
+  .feature-info {
+    padding: 0;
   }
 }
 
