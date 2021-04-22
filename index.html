@@ -170,8 +170,12 @@
           </div>
         </div>
         <script type="text/javascript">
-          $(window).on('load', function() {
-            $('#cookieModal').modal('show');
+            $(document).ready(function() {
+            var isshow = localStorage.getItem('isshow');
+            if (isshow === null) {
+              localStorage.setItem('isshow', 1);
+              $('#cookieModal').modal('show');
+            }
           });
         </script>
       </div>
