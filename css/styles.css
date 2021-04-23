@@ -57,7 +57,6 @@ h2 {
   .search-img, .uni-img {
     display: none;
   }
-
 }
 
 /* Features section */
@@ -119,27 +118,13 @@ h2 {
 }
 
 /* contact-me page section */
-
-
 #contact-title {
   background-color: #0061a8;
   color: #fff;
 }
 
-#contact-title .container-fluid{
+#contact-title .container-fluid {
   padding: 5% 15% 10%;
-}
-
-@media (max-width: 600px) {
-  .contact-item img {
-    display: none;
-  }
-  .feature-info {
-    padding: 0;
-  }
-  .footer-link {
-    margin: 0;
-  }
 }
 
 .contact-item img {
@@ -150,8 +135,26 @@ h2 {
   width: 70%;
 }
 
+@media (max-width: 600px) {
+  .contact-item img {
+    display: none;
+  }
+
+  .feature-info {
+    padding: 0;
+  }
+
+  .footer-link {
+    margin: 0;
+  }
+
+  .contact-item .contact-text {
+    width: 100%;
+  }
+}
+
 /* uni page section */
-#archive-title{
+#archive-title {
   background-color: #0061a8;
   color: #fff;
 }
@@ -160,7 +163,7 @@ h2 {
   padding: 0;
 }
 
-#archive-links{
+#archive-links {
   background-color: #8ab6d6;
 }
 
