@@ -122,8 +122,12 @@ h2 {
   background-color: #0061a8;
   color: #fff;
 }
+#contact-title-herokuapp{
+  background-color: #fff;
+  color: #000;
+}
 
-#contact-title .container-fluid {
+#contact-title #contact-title-herokuapp .container-fluid {
   padding: 5% 15% 10%;
 }
 
