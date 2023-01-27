@@ -1,0 +1,177 @@
+body {
+  font-family: 'Ubuntu Mono', monospace, sans-serif;
+  text-align: center;
+}
+
+h1, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+#title {
+  background-color: #0061a8;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.row {
+  margin-bottom: 2%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+@media (max-width: 1080px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-photo {
+    display: none;
+  }
+
+  .search-img, .uni-img {
+    display: none;
+  }
+}
+
+/* Features section */
+#features {
+  background-color: #8ab6d6;
+}
+
+.feature-title {
+  font-size: 1.75rem;
+  margin: 3% 0 0;
+}
+
+.feature-info {
+  font-size: 1.25rem;
+  padding: 5rem 7rem;
+}
+
+/* Contact section */
+#contact {
+  background-color: #28b5b5;
+}
+
+.contact-subtitle {
+  font-weight: normal;
+  font-size: 1.5rem;
+  padding: 3rem;
+}
+
+.contact-p {
+  font-size: 1rem;
+}
+
+.search-img, .uni-img {
+  width: 20%;
+  margin: 2rem;
+}
+
+/* buttons */
+.contact-button {
+  margin-top: 5%;
+}
+
+/* footer section */
+#footer {
+  background-color: #fff;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  margin: 1rem;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  margin-top: 2rem;
+}
+
+/* contact-me page section */
+#contact-title {
+  background-color: #0061a8;
+  color: #fff;
+}
+#contact-title-herokuapp{
+  background-color: #8ab6d6;
+  color: #000;
+}
+
+#contact-title #contact-title-herokuapp .container-fluid {
+  padding: 5% 15% 10%;
+}
+
+.contact-item img {
+  width: 10%;
+}
+
+.contact-item .contact-text {
+  width: 70%;
+}
+
+@media (max-width: 600px) {
+  .contact-item img {
+    display: none;
+  }
+
+  .feature-info {
+    padding: 0;
+  }
+
+  .footer-link {
+    margin: 0;
+  }
+
+  .contact-item .contact-text {
+    width: 100%;
+  }
+}
+
+/* uni page section */
+#archive-title {
+  background-color: #0061a8;
+  color: #fff;
+}
+
+#archive-title .navbar {
+  padding: 0;
+}
+
+#archive-links {
+  background-color: #8ab6d6;
+}
+
+#archive-links table {
+  font-family: 'Montserrat', sans-serif;
+  margin: 2rem;
+}
